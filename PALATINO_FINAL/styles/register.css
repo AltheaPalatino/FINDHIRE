@@ -1,0 +1,79 @@
+/*Register CSS*/
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        border-style: inset;
+        background-color: #EDE8DC;
+    }
+
+.container {
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        border-style: inset;
+    }
+
+h2 {
+        text-align: center;
+        color: #343a40;
+        margin-bottom: 20px;
+    }
+
+label {
+        font-weight: 600;
+        margin-bottom: 8px;
+        display: block;
+        color: #495057;
+    }
+
+input, select {
+        width: 95%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        font-size: 14px;
+        border-style: inset;
+    }
+
+button {
+        width: 100%;
+        padding: 12px;
+        background-color: #A888B5;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+button:hover {
+        background-color: #A888B5;
+    }
+
+p {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+a {
+        color: #A888B5;
+        text-decoration: none;
+    }
+
+a:hover {
+        text-decoration: underline;
+    }
+
+
+
